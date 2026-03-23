@@ -38,7 +38,8 @@ This repository contains a comprehensive analysis of continuous-time chaotic sys
 * **Numerical Methods & Benchmarking:** * Implementation of fundamental numerical integrators: Euler (1st Order), Heun's Predictor-Corrector (2nd Order), and Runge-Kutta 4 (4th Order).
     * Rigorous error analysis and convergence testing to establish theoretical accuracy limits.
     * Performance comparison between the fixed-step manual RK4 method and SciPy’s adaptive `solve_ivp` (`RK45`) solver.
-* **Characterising Chaos:** * **Bifurcation Diagrams:** Mapping the long-term behaviour of the systems as key parameters are continuously varied, revealing structural transitions into chaos.
+* **Characterising Chaos:**
+    * **Bifurcation Diagrams:** Mapping the long-term behaviour of the systems as key parameters are continuously varied, revealing structural transitions into chaos.
     * **Lyapunov Exponents:** Calculation of the Maximal Lyapunov Exponent (MLE) to quantify the exact rate of trajectory divergence and formalise the system's sensitivity to initial conditions.
     * **Phase Space Visualisation:** Generating 3D plots of strange attractors to visually verify the global topology captured by the numerical solvers.
 
