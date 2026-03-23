@@ -1,4 +1,5 @@
-# Numerical Analysis of Chaotic Systems
+# PHAS0052 Physics Group Project 2025-26
+# Group 13: Chaotic Dynamics
 
 ## Project Files & Authors
 * **File:** `Lorenz and Rossler Parameters.ipynb`
