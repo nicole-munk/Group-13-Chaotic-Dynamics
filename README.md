@@ -33,9 +33,9 @@ This repository contains a comprehensive analysis of continuous-time chaotic sys
 * **The Lorenz System:** Modelled to investigate rapid chaotic divergence, strange attractors, and high-curvature phase space dynamics, alongside an analytical review of its fixed points.
 
 ## Key Features & Methodology
-* **Analytical Stability Analysis:** * Calculation of equilibrium fixed points for the dynamical systems.
+* **Analytical Stability Analysis:** Calculation of equilibrium fixed points for the dynamical systems.
     * Use of Jacobian matrices and eigenvalue evaluation to mathematically determine the stability of these fixed points before simulating.
-* **Numerical Methods & Benchmarking:** * Implementation of fundamental numerical integrators: Euler (1st Order), Heun's Predictor-Corrector (2nd Order), and Runge-Kutta 4 (4th Order).
+* **Numerical Methods & Benchmarking:** Implementation of fundamental numerical integrators such as Euler (1st Order), Heun's Predictor-Corrector (2nd Order), and Runge-Kutta 4 (4th Order).
     * Rigorous error analysis and convergence testing to establish theoretical accuracy limits.
     * Performance comparison between the fixed-step manual RK4 method and SciPy’s adaptive `solve_ivp` (`RK45`) solver.
 * **Characterising Chaos:**
