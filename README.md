@@ -8,17 +8,19 @@
 * **File:** `Further Benchmarking.ipynb`
   * **Author:** CC
 * **File:** `Lorenz bifurcations.ipynb`
-  * **Author:** ?
+  * **Author:** AA
 * **File:** `Lorenz_T.ipynb`
   * **Author:** DD
 * **File:** `Rossler Hopf bifurcation.ipynb`
   * **Author:** AA
 * **File:** `Rossler_TBJ.ipynb`
-  * **Author:** DD
+  * **Author:** DD & AA
 * **File:** `calculating_lyapunov_exponent_and_time_for_lorentz_and_rossler.ipynb`
   * **Author:** BB
 * **File:** `lyapunov_exponent_solver_comparison.ipynb`
   * **Author:** BB
+* **File:** `solvercomparison_bifurcation.ipynb`
+  * **Author:** DD
 
 ---
 
