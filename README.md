@@ -26,11 +26,21 @@
 ---
 
 ## Overview
-This repository contains the Python implementation and comparative analysis of various numerical integration methods applied to continuous-time chaotic systems. The project evaluates the performance, stability, and computational efficiency of fixed-step manual solvers against professional adaptive algorithms when modelling highly sensitive non-linear dynamics.
+This repository contains a comprehensive analysis of continuous-time chaotic systems, combining analytical stability techniques with robust numerical simulations. The project investigates the fundamental non-linear dynamics and sensitive dependence on initial conditions inherent to chaotic models. By benchmarking manually implemented numerical solvers against professional algorithms, the project validates the computational methods required to accurately generate phase space trajectories, plot bifurcation diagrams, and calculate Lyapunov exponents.
 
 ## Systems Analysed
-* **The Lorenz Attractor:** Modelled to observe rapid chaotic divergence and high-curvature phase space trajectories.
-* **The Rössler Attractor:** Modelled to contrast with the Lorenz system, demonstrating a slower, "period-doubling" route to chaos and a distinctly different Lyapunov timescale.
+* **The Rössler System:** Analysed to observe the classic period-doubling route to chaos. The system's topological transitions and equilibrium points were evaluated across varying parameter regimes.
+* **The Lorenz System:** Modelled to investigate rapid chaotic divergence, strange attractors, and high-curvature phase space dynamics, alongside an analytical review of its fixed points.
+
+## Key Features & Methodology
+* **Analytical Stability Analysis:** * Calculation of equilibrium fixed points for the dynamical systems.
+    * Use of Jacobian matrices and eigenvalue evaluation to mathematically determine the stability of these fixed points before simulating.
+* **Numerical Methods & Benchmarking:** * Implementation of fundamental numerical integrators: Euler (1st Order), Heun's Predictor-Corrector (2nd Order), and Runge-Kutta 4 (4th Order).
+    * Rigorous error analysis and convergence testing to establish theoretical accuracy limits.
+    * Performance comparison between the fixed-step manual RK4 method and SciPy’s adaptive `solve_ivp` (`RK45`) solver.
+* **Characterising Chaos:** * **Bifurcation Diagrams:** Mapping the long-term behaviour of the systems as key parameters are continuously varied, revealing structural transitions into chaos.
+    * **Lyapunov Exponents:** Calculation of the Maximal Lyapunov Exponent (MLE) to quantify the exact rate of trajectory divergence and formalise the system's sensitivity to initial conditions.
+    * **Phase Space Visualisation:** Generating 3D plots of strange attractors to visually verify the global topology captured by the numerical solvers.
 
 ## Technologies Used
 * Python 3
